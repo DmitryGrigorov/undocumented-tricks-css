@@ -1,0 +1,24 @@
+/* styling */
+div{
+  width: 400px;
+  height: 250px;
+  margin: auto;
+  margin-top: 50px;
+}
+/* styling */
+
+.border-and-outline{
+  background: yellowgreen;
+  border: 40px solid #655;
+  outline:  deeppink solid 15px;
+}
+
+.box-shadow{
+  margin-top: 100px;
+  /* styling */
+
+  background: yellowgreen;
+  box-shadow: 0 0 0 40px #655,
+              0 0 0 55px deeppink,
+              0 2px 5px 55px rgba(0,0,0,.6);
+}

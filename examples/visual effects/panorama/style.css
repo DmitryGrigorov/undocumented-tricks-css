@@ -1,0 +1,21 @@
+.panorama{
+  width: 300px;
+  height: 300px;
+  background: url('gamburg.jpg');
+  background-size: auto 100%;
+  animation: panorama 5s linear infinite alternate;
+  animation-play-state: paused;
+  border-radius: 50%;
+
+  margin-left: 200px;
+}
+
+.panorama:hover, .panrama:focus{
+  animation-play-state: running;
+}
+
+@keyframes panorama{
+  to{
+    background-position: 100% 0;
+  }
+}

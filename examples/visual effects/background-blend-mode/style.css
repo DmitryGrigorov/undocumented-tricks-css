@@ -1,0 +1,49 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.tinted-image {
+  width: 600px;
+  height: 400px;
+  background-size: cover;
+
+  background-image: url('us-tiger.jpg');
+  transition: .5s all;
+}
+
+.tinted-image:hover {
+  background-color: transparent;
+}
+
+.color-1 {
+  background-color: hsl(355, 100%, 50%);
+  background-blend-mode: difference;
+}
+
+.color-2 {
+  background-color: hsl(355, 100%, 50%);
+  background-blend-mode: luminosity;
+}
+
+.color-3 {
+  background-color: yellow;
+  background-blend-mode: difference;
+}
+
+.color-4 {
+  background-color: yellow;
+  background-blend-mode: luminosity;
+}
+
+.color-5 {
+  background-color: blue;
+  background-blend-mode: difference;
+}
+
+.color-6 {
+  background-color: blue;
+  background-blend-mode: luminosity;
+}

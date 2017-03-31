@@ -1,0 +1,12 @@
+img {
+  display: block;
+  max-width: 250px;
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+  transition: all 1s;
+  margin: auto;
+  margin-top: 20px;
+}
+
+img:hover {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}

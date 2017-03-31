@@ -1,0 +1,16 @@
+div {
+  background: url(./svg/bear.svg) no-repeat bottom 5px right 15px,
+              url(./svg/boar.svg) no-repeat bottom 5px left 15px,
+              url(./svg/wolf.svg) no-repeat top 5px right 15px;
+  background-size: 2em 2em;
+  background-color: #58a;
+  /* Styling */
+  font-size: 30px;
+  font-family: sans-serif;
+  max-width: 10em;
+  min-height: 6em;
+  color: white;
+  margin: 100px;
+  padding: 20px
+  
+}

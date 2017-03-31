@@ -1,0 +1,12 @@
+.tinted-image {
+  width: 600px;
+  height: 400px;
+  background-size: cover;
+
+  background-image: url('us-tiger.jpg');
+  filter: sepia() saturate(4) hue-rotate(25deg);
+  transition: .5s all;
+}
+.tinted-image:hover {
+  filter: none;
+}

@@ -1,0 +1,5 @@
+body {
+  background: linear-gradient(to right ,#fb3 50%, #58a 0);
+  -webkit-background-size: 30px 100%;
+  background-size: 30px 100%;
+}

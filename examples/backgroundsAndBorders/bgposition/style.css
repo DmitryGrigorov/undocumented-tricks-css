@@ -1,0 +1,15 @@
+div {
+  background: url("bear.svg") no-repeat;
+  background-position: right 10px top 0px; 
+  padding: 10px;
+  background-color: #58a;
+  background-size: 2.5em 2.5em;
+
+  /* Styling */
+  font-size: 30px;
+  font-family: sans-serif;
+  max-width: 10em;
+  min-height: 6em;
+  color: white;
+  margin: 100px;
+}

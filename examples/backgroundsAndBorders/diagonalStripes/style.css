@@ -1,0 +1,6 @@
+body{
+  background: repeating-linear-gradient(45deg, 
+              #fb3 0, #fb3 15px,
+              #58a 0, #58a 30px);
+  background-size: 42px 42px;
+}

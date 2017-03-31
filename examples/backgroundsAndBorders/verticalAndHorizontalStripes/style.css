@@ -1,0 +1,5 @@
+body{
+  background: linear-gradient(rgba(255, 0, 0, .5) 15px, transparent 0),
+    linear-gradient(to right,rgba(255, 0, 0, 0.5) 15px, transparent 0);
+  background-size: 30px 30px;
+}

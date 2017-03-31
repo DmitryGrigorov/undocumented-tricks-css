@@ -1,0 +1,28 @@
+body {
+  background: #FFF;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+ /* styling   */
+
+.background {
+  margin: auto;
+  margin-top: 100px;
+  height: 300px;
+  width: 800px;
+  background-size: cover;
+  background-position: center center;
+  background-image: url('./bg.jpg');
+  padding-top: 100px;
+}
+
+.block{
+  padding: 40px;
+  width: 400px;
+  margin: auto;
+  /* styling   */
+  
+  background-color: white;
+  border: 20px solid hsla(0,0%,100%,.5);
+  background-clip: padding-box
+}

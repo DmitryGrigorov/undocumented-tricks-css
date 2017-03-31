@@ -1,0 +1,53 @@
+img{
+  max-height: 400px
+}
+
+.image-slider {
+  position:relative;
+  display: inline-block;
+
+  height: 400px;
+}
+.image-slider > div {
+  position: absolute;
+  top: 0; bottom: 0; left: 0;
+  width: 50%;
+  max-width: 100%;
+  overflow: hidden;
+  resize: horizontal;
+}
+
+.image-slider input {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  margin: 0;
+  bottom: 30px;
+
+
+  -webkit-appearance: none;
+  background-color: #bdc3c7;
+  height: 5px;
+  border-radius: 5px;
+  outline: 0;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: #e74c3c;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  background-color: white;
+  border: 2px solid #e74c3c;
+}
+input[type="range"]::-webkit-slider-thumb:active {
+  transform: scale(1.6);
+}

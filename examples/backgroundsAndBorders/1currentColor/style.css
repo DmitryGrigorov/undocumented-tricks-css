@@ -1,0 +1,25 @@
+/* styling */
+body {
+  font-family: sans-serif;
+  font-size: 20px ;
+  padding: 100px;
+  font-weight: bold;
+}
+
+div {
+  display: inline-block;
+  padding: 20px 40px;
+  margin-right: 20px;
+}
+
+/* styling */
+
+.border {
+  color: #58a;
+  border: 5px solid;
+}
+
+.outline {
+  color: #58a;
+  outline: 5px solid;
+}
