@@ -10,7 +10,7 @@
   margin-left: 200px;
 }
 
-.panorama:hover, .panrama:focus{
+.panorama:hover, .panorama:focus{
   animation-play-state: running;
 }
 
